@@ -1,6 +1,8 @@
-requirements.in
 .github
 .gitignore
 README.md
 .env
 .pypirc
+requirements.in
+requirements_gpu.in
+requirements_gpu.txt
