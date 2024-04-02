@@ -3,3 +3,4 @@ requirements.in
 .gitignore
 README.md
 .env
+.pypirc

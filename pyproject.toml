@@ -28,7 +28,7 @@ gpu = ["vtk == 9.*"]
 
 
 [tool.setuptools.dynamic]
-dependencies = {file = ["requirements.txt"]}
+dependencies = {file = ["requirements_gpu.txt"]}
 
 [tool.setuptools.packages.find]
 where = ["src"]
