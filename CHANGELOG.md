@@ -2,6 +2,13 @@
 
 
 
+## v0.1.0-rc.2 (2024-04-02)
+
+### Fix
+
+* fix(gh actions): test trigger semantic-release ([`0ba50a6`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/0ba50a6cc4d7cfc917082ea91ee77c64b63d9849))
+
+
 ## v0.1.0-rc.1 (2024-04-02)
 
 ### Feature
