@@ -7,5 +7,10 @@ dot_env_path = os.path.join(basedir, "./.env")
 if os.path.isfile(dot_env_path):
     dotenv.load_dotenv(dot_env_path)
 
-if __name__ == "__main__":
+
+def run_viewer():
     vtkw_server.run_server()
+
+
+if __name__ == "__main__":
+    run_viewer()
