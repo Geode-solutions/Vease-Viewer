@@ -2,6 +2,27 @@
 
 
 
+## v0.1.0-rc.3 (2024-06-11)
+
+### Feature
+
+* feat(SetupViewer): Trigger Semantic Realease ([`ddef573`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/ddef573231d93632e931aa6426afdda1a76f9e70))
+
+### Unknown
+
+* Merge pull request #4 from Geode-solutions/feat_tao
+
+feat(SetupViewer): Trigger Semantic Realease ([`def48c0`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/def48c08a2cff28bcf82bcfa4a455ece08dda750))
+
+* Merge pull request #3 from Geode-solutions/feat_tao_viewer
+
+added script ([`d7b331d`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/d7b331d36a3c761e9c41dbaf2996e20fcb5f2c58))
+
+* links edit ([`54d5a11`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/54d5a1158ac66582d91cafe7492bb9955d1a62ef))
+
+* added script ([`81096ab`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/81096ab8667df5d2c9316c320bdb4af2cf4c92e8))
+
+
 ## v0.1.0-rc.2 (2024-04-02)
 
 ### Fix
