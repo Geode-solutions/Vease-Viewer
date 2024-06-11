@@ -23,8 +23,8 @@ classifiers = [
 gpu = ["vtk == 9.*"]
 
 [project.urls]
-"Homepage" = "https://github.com/Geode-solutions/OpenGeodeWeb-Viewer"
-"Bug Tracker" = "https://github.com/Geode-solutions/OpenGeodeWeb-Viewer/issues"
+"Homepage" = "https://github.com/Geode-solutions/GeodeApp-Viewer"
+"Bug Tracker" = "https://github.com/Geode-solutions/GeodeApp-Viewer/issues"
 
 [project.scripts]
 geodeapp_viewer = "geodeapp_viewer.app:run_viewer"
