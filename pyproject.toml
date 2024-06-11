@@ -26,6 +26,9 @@ gpu = ["vtk == 9.*"]
 "Homepage" = "https://github.com/Geode-solutions/OpenGeodeWeb-Viewer"
 "Bug Tracker" = "https://github.com/Geode-solutions/OpenGeodeWeb-Viewer/issues"
 
+[project.scripts]
+geodeapp_viewer = "geodeapp_viewer.app:run_viewer"
+
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements_gpu.txt"]}
