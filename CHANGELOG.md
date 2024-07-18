@@ -1,6 +1,24 @@
 # CHANGELOG
 
+## v0.2.0-rc.1 (2024-07-17)
 
+### Feature
+
+* feat(cli): dynamic port and volume in cli ([`72a087c`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/72a087c5520fa386c6ef75a139b276f048d9bbf0))
+
+### Fix
+
+* fix(imports): remove dotenv ([`1760d4b`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/1760d4bf9013f1b7be7d45f85d36dbf5c161f34f))
+
+### Unknown
+
+* Merge pull request #6 from Geode-solutions/feat/dynamic_port_and_volume
+
+Feat/dynamic port and volume ([`5ddc838`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/5ddc838d0103d46d5283add3b1ddee31eecd6185))
+
+* cleaner imports ([`9052f3c`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/9052f3c83cbe74632452a9cbdda4da88aa3f64cd))
+
+*  ([`7ad5b36`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/7ad5b36ab953913c355bbf9a9ca21cd0e1bd2aa3))
 
 ## v0.1.0 (2024-06-13)
 
@@ -9,7 +27,6 @@
 * Merge pull request #5 from Geode-solutions/next
 
 Next ([`46f82c5`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/46f82c5886461b6a466c4eaeed8ca9c6aded79ed))
-
 
 ## v0.1.0-rc.3 (2024-06-11)
 
@@ -31,13 +48,11 @@ added script ([`d7b331d`](https://github.com/Geode-solutions/GeodeApp-Viewer/com
 
 * added script ([`81096ab`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/81096ab8667df5d2c9316c320bdb4af2cf4c92e8))
 
-
 ## v0.1.0-rc.2 (2024-04-02)
 
 ### Fix
 
 * fix(gh actions): test trigger semantic-release ([`0ba50a6`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/0ba50a6cc4d7cfc917082ea91ee77c64b63d9849))
-
 
 ## v0.1.0-rc.1 (2024-04-02)
 
