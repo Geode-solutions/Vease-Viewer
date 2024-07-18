@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.2.0 (2024-07-18)
+
+### Unknown
+
+* Merge pull request #7 from Geode-solutions/next
+
+Next ([`7555b50`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/7555b50c2b8d040997e6b123aac03e261e97974f))
+
 ## v0.2.0-rc.1 (2024-07-17)
 
 ### Feature
