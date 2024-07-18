@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## v0.2.1-rc.1 (2024-07-18)
+
+### Fix
+
+* fix(CICD): admin token in actions ([`e164d9e`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/e164d9eba52ee9f1f872f2715445e3d8a4a5e7bb))
+
+### Unknown
+
+* Merge pull request #8 from Geode-solutions/fix/admin_token
+
+fix(CICD): admin token in actions ([`6c6a911`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/6c6a911005d1a866b6a6c7c6b94bd102fedf52dd))
+
+*  ([`66d8167`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/66d816761949801d1018548e98b9040222f27360))
+
 ## v0.2.0 (2024-07-18)
 
 ### Unknown
