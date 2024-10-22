@@ -1,6 +1,21 @@
 # CHANGELOG
 
 
+## v0.2.2-rc.2 (2024-10-22)
+
+### Bug Fixes
+
+* fix(host): update to stable dependencies ([`eb41ce1`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/eb41ce1f5b363e4ecd31839800212587b6fa7fc6))
+
+### Unknown
+
+* Merge pull request #11 from Geode-solutions/fix/host
+
+Fix/host ([`37061b3`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/37061b37e7d952980a3517d06e741d592c3b6ee3))
+
+* Merge branch 'fix/host' of https://github.com/Geode-solutions/GeodeApp-Viewer into fix/host ([`c175365`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/c17536582e572fedcc2ae44c248789693b2f9f26))
+
+
 ## v0.2.2-rc.1 (2024-10-21)
 
 ### Unknown
