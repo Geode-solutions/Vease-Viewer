@@ -1,5 +1,34 @@
 # CHANGELOG
 
+
+## v0.2.2-rc.2 (2024-10-22)
+
+### Bug Fixes
+
+* fix(host): update to stable dependencies ([`eb41ce1`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/eb41ce1f5b363e4ecd31839800212587b6fa7fc6))
+
+### Unknown
+
+* Merge pull request #11 from Geode-solutions/fix/host
+
+Fix/host ([`37061b3`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/37061b37e7d952980a3517d06e741d592c3b6ee3))
+
+* Merge branch 'fix/host' of https://github.com/Geode-solutions/GeodeApp-Viewer into fix/host ([`c175365`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/c17536582e572fedcc2ae44c248789693b2f9f26))
+
+
+## v0.2.2-rc.1 (2024-10-21)
+
+### Unknown
+
+* Merge pull request #10 from Geode-solutions/fix/host
+
+fix(host): update opengeodeweb-viewer ([`4c41eb0`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/4c41eb0ae27a62ddfb9ff928708e0ca92e9c2e13))
+
+* Merge branch 'next' into fix/host ([`f8aacbc`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/f8aacbc07603da54d945798f82f3bc6391b73ca3))
+
+*  ([`b4592cd`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/b4592cd9b97c42e2379d2487dfc22c4b3b7f7d2a))
+
+
 ## v0.2.1 (2024-07-18)
 
 ### Unknown
@@ -8,9 +37,10 @@
 
 Next ([`d5f57a9`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/d5f57a9bb439a7295a9553156553504b787f7c09))
 
+
 ## v0.2.1-rc.1 (2024-07-18)
 
-### Fix
+### Bug Fixes
 
 * fix(CICD): admin token in actions ([`e164d9e`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/e164d9eba52ee9f1f872f2715445e3d8a4a5e7bb))
 
@@ -22,6 +52,7 @@ fix(CICD): admin token in actions ([`6c6a911`](https://github.com/Geode-solution
 
 *  ([`66d8167`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/66d816761949801d1018548e98b9040222f27360))
 
+
 ## v0.2.0 (2024-07-18)
 
 ### Unknown
@@ -30,15 +61,18 @@ fix(CICD): admin token in actions ([`6c6a911`](https://github.com/Geode-solution
 
 Next ([`7555b50`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/7555b50c2b8d040997e6b123aac03e261e97974f))
 
+
 ## v0.2.0-rc.1 (2024-07-17)
 
-### Feature
-
-* feat(cli): dynamic port and volume in cli ([`72a087c`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/72a087c5520fa386c6ef75a139b276f048d9bbf0))
-
-### Fix
+### Bug Fixes
 
 * fix(imports): remove dotenv ([`1760d4b`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/1760d4bf9013f1b7be7d45f85d36dbf5c161f34f))
+
+* fix(host): update opengeodeweb-viewer ([`7770960`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/77709605432d2294d55e4e9dd1b670a672d959ee))
+
+### Features
+
+* feat(cli): dynamic port and volume in cli ([`72a087c`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/72a087c5520fa386c6ef75a139b276f048d9bbf0))
 
 ### Unknown
 
@@ -50,6 +84,7 @@ Feat/dynamic port and volume ([`5ddc838`](https://github.com/Geode-solutions/Geo
 
 *  ([`7ad5b36`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/7ad5b36ab953913c355bbf9a9ca21cd0e1bd2aa3))
 
+
 ## v0.1.0 (2024-06-13)
 
 ### Unknown
@@ -58,9 +93,10 @@ Feat/dynamic port and volume ([`5ddc838`](https://github.com/Geode-solutions/Geo
 
 Next ([`46f82c5`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/46f82c5886461b6a466c4eaeed8ca9c6aded79ed))
 
+
 ## v0.1.0-rc.3 (2024-06-11)
 
-### Feature
+### Features
 
 * feat(SetupViewer): Trigger Semantic Realease ([`ddef573`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/ddef573231d93632e931aa6426afdda1a76f9e70))
 
@@ -78,21 +114,23 @@ added script ([`d7b331d`](https://github.com/Geode-solutions/GeodeApp-Viewer/com
 
 * added script ([`81096ab`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/81096ab8667df5d2c9316c320bdb4af2cf4c92e8))
 
+
 ## v0.1.0-rc.2 (2024-04-02)
 
-### Fix
+### Bug Fixes
 
 * fix(gh actions): test trigger semantic-release ([`0ba50a6`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/0ba50a6cc4d7cfc917082ea91ee77c64b63d9849))
 
+
 ## v0.1.0-rc.1 (2024-04-02)
 
-### Feature
-
-* feat(viewer): add viewer ([`b01f028`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/b01f02831f130d32a5233b4bc36722ed48b78f74))
-
-### Fix
+### Bug Fixes
 
 * fix(CICD): add pypi publish ([`b31fe86`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/b31fe8662a3c233986bcb73b359742fd8bcb1ccb))
+
+### Features
+
+* feat(viewer): add viewer ([`b01f028`](https://github.com/Geode-solutions/GeodeApp-Viewer/commit/b01f02831f130d32a5233b4bc36722ed48b78f74))
 
 ### Unknown
 
