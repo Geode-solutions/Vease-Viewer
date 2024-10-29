@@ -1,6 +1,19 @@
 # CHANGELOG
 
 
+## v1.0.0-rc.1 (2024-10-29)
+
+### Breaking
+
+* fix(repo): rename to vease
+
+BREAKING CHANGE: changes cli command to vease-viewer ([`c70c0d4`](https://github.com/Geode-solutions/Vease-Viewer/commit/c70c0d48041c7f840bcfca4ceb7da56758e8ea17))
+
+### Unknown
+
+*  ([`068e1a5`](https://github.com/Geode-solutions/Vease-Viewer/commit/068e1a5c263a1fcf0a7b1935b2c29889581ec48f))
+
+
 ## v0.2.3 (2024-10-29)
 
 ### Unknown
