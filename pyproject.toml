@@ -27,7 +27,7 @@ gpu = ["vtk == 9.*"]
 "Bug Tracker" = "https://github.com/Geode-solutions/Vease-Viewer/issues"
 
 [project.scripts]
-vease_viewer = "vease_viewer.app:run_viewer"
+vease-viewer = "vease_viewer.app:run_viewer"
 
 
 [tool.setuptools.dynamic]
