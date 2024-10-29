@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name = "GeodeApp-Viewer"
+name = "Vease-Viewer"
 version = "0.2.2"
 dynamic = ["dependencies"]
 authors = [
   { name="Geode-solutions", email="team-web@geode-solutions.com" },
 ]
-description = "GeopeApp-Viewer is the viewer microservice of the GeodeApp"
+description = "Vease-Viewer is the viewer microservice of Vease"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
@@ -23,11 +23,11 @@ classifiers = [
 gpu = ["vtk == 9.*"]
 
 [project.urls]
-"Homepage" = "https://github.com/Geode-solutions/GeodeApp-Viewer"
-"Bug Tracker" = "https://github.com/Geode-solutions/GeodeApp-Viewer/issues"
+"Homepage" = "https://github.com/Geode-solutions/Vease-Viewer"
+"Bug Tracker" = "https://github.com/Geode-solutions/Vease-Viewer/issues"
 
 [project.scripts]
-geodeapp_viewer = "geodeapp_viewer.app:run_viewer"
+vease-viewer = "vease_viewer.app:run_viewer"
 
 
 [tool.setuptools.dynamic]
@@ -37,7 +37,7 @@ dependencies = {file = ["requirements_gpu.txt"]}
 where = ["src"]
 
 [tool.setuptools.package-data]
-"geodeapp_viewer.rpc.schemas" = ["*.json"]
+"vease_viewer.rpc.schemas" = ["*.json"]
 
 [tool.semantic_release]
 version_toml = [

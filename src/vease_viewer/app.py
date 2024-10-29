@@ -1,9 +1,9 @@
 # Standard library imports
 
 # Third party imports
+from opengeodeweb_viewer import vtkw_server
 
 # Local application imports
-from opengeodeweb_viewer import vtkw_server
 
 
 def run_viewer():

@@ -8,6 +8,6 @@ RUN pip3 install https://www.vtk.org/files/release/9.3/vtk_osmesa-9.3.0-cp39-cp3
 ENV PYTHONPATH="/usr/local:$PYTHONPATH"
 ENV PYTHON_ENV="prod"
 
-CMD python src/geodeapp_viewer/app.py
+CMD "vease-viewer"
 
 EXPOSE 1234
