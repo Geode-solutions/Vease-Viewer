@@ -36,12 +36,11 @@ jobs:
           target_branch: next
           github_token: ${{ secrets.TOKEN }}
 
-          
   docker-build-squash-push:
-      uses: Geode-solutions/actions/.github/workflows/docker-build-squash-push.yml@master
-      if: github.ref == 'refs/heads/next' || github.ref == 'refs/heads/master'
-      with:
-          image_name: 'geodeapp-viewer'
-          tag: ${{ github.ref_name }}
-      secrets: 
-          TOKEN: ${{secrets.GITHUB_TOKEN}}
+    uses: Geode-solutions/actions/.github/workflows/docker-build-squash-push.yml@master
+    if: github.ref == 'refs/heads/next' || github.ref == 'refs/heads/master'
+    with:
+      image_name: "vease-viewer"
+      tag: ${{ github.ref_name }}
+    secrets:
+      TOKEN: ${{secrets.GITHUB_TOKEN}}
