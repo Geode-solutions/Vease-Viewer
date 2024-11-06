@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v1.0.1 (2024-11-06)
+
+### Unknown
+
+* Merge pull request #17 from Geode-solutions/next
+
+Next ([`81be0ff`](https://github.com/Geode-solutions/Vease-Viewer/commit/81be0ffcbf6164502942f33097ecef377cb8a21f))
+
+
 ## v1.0.1-rc.1 (2024-11-06)
 
 ### Bug Fixes
