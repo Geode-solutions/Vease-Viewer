@@ -1,6 +1,21 @@
 # CHANGELOG
 
 
+## v1.0.1-rc.1 (2024-11-06)
+
+### Bug Fixes
+
+* fix(deps): update opengeodeweb-viewer 0.3.0 ([`f2328f8`](https://github.com/Geode-solutions/Vease-Viewer/commit/f2328f86b5487d4a43af9305faa99b5f91bae329))
+
+### Unknown
+
+* Merge pull request #16 from Geode-solutions/fix/update_ecosystem
+
+fix(deps): update opengeodeweb-viewer 0.3.0 ([`1dece4c`](https://github.com/Geode-solutions/Vease-Viewer/commit/1dece4cbcd67aeba4bfdb26a4fc38b1e7efde824))
+
+*  ([`0de8bb4`](https://github.com/Geode-solutions/Vease-Viewer/commit/0de8bb4c78a8da064e24ea52d248157186665c3f))
+
+
 ## v1.0.0 (2024-10-29)
 
 ### Unknown
