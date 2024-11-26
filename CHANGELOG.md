@@ -1,6 +1,9 @@
 # CHANGELOG
 
 
+## v2.0.0-rc.1 (2024-11-26)
+
+
 ## v1.0.2 (2024-11-07)
 
 
@@ -8,7 +11,7 @@
 
 ### Bug Fixes
 
-- Missing opengeodeweb-viewer update
+- **requirements_gpu**: Missing opengeodeweb-viewer update
   ([`3c4f9a8`](https://github.com/Geode-solutions/Vease-Viewer/commit/3c4f9a86d1df5a1aa7209c30b8c8d3420159f726))
 
 
@@ -19,8 +22,15 @@
 
 ### Bug Fixes
 
-- Update opengeodeweb-viewer 0.3.0
+- **deps**: Update opengeodeweb-viewer 0.3.0
   ([`f2328f8`](https://github.com/Geode-solutions/Vease-Viewer/commit/f2328f86b5487d4a43af9305faa99b5f91bae329))
+
+### Chores
+
+- **update deps**: Ogw-viewer
+  ([`ae392a6`](https://github.com/Geode-solutions/Vease-Viewer/commit/ae392a614a03018ab505c620290b5c2fda4b6339))
+
+BREAKING CHANGE: new ogw-viewer api
 
 
 ## v1.0.0 (2024-10-29)
@@ -28,9 +38,9 @@
 
 ## v1.0.0-rc.1 (2024-10-29)
 
-### Breaking
+### Bug Fixes
 
-- Rename to vease
+- **repo**: Rename to vease
   ([`c70c0d4`](https://github.com/Geode-solutions/Vease-Viewer/commit/c70c0d48041c7f840bcfca4ceb7da56758e8ea17))
 
 BREAKING CHANGE: changes cli command to vease-viewer
@@ -43,10 +53,10 @@ BREAKING CHANGE: changes cli command to vease-viewer
 
 ### Bug Fixes
 
-- Rename to vease
+- **repo**: Rename to vease
   ([`562d047`](https://github.com/Geode-solutions/Vease-Viewer/commit/562d04789590985e5e4e1bf063c51d0699ceebb8))
 
-- Rename to vease
+- **repo**: Rename to vease
   ([`e1c1718`](https://github.com/Geode-solutions/Vease-Viewer/commit/e1c1718ce02ac837e3ce60bdc22a0121be55f2ab))
 
 
@@ -57,7 +67,7 @@ BREAKING CHANGE: changes cli command to vease-viewer
 
 ### Bug Fixes
 
-- Update to stable dependencies
+- **host**: Update to stable dependencies
   ([`eb41ce1`](https://github.com/Geode-solutions/Vease-Viewer/commit/eb41ce1f5b363e4ecd31839800212587b6fa7fc6))
 
 
@@ -71,7 +81,7 @@ BREAKING CHANGE: changes cli command to vease-viewer
 
 ### Bug Fixes
 
-- Admin token in actions
+- **CICD**: Admin token in actions
   ([`e164d9e`](https://github.com/Geode-solutions/Vease-Viewer/commit/e164d9eba52ee9f1f872f2715445e3d8a4a5e7bb))
 
 
@@ -82,15 +92,15 @@ BREAKING CHANGE: changes cli command to vease-viewer
 
 ### Bug Fixes
 
-- Remove dotenv
+- **imports**: Remove dotenv
   ([`1760d4b`](https://github.com/Geode-solutions/Vease-Viewer/commit/1760d4bf9013f1b7be7d45f85d36dbf5c161f34f))
 
-- Update opengeodeweb-viewer
+- **host**: Update opengeodeweb-viewer
   ([`7770960`](https://github.com/Geode-solutions/Vease-Viewer/commit/77709605432d2294d55e4e9dd1b670a672d959ee))
 
 ### Features
 
-- Dynamic port and volume in cli
+- **cli**: Dynamic port and volume in cli
   ([`72a087c`](https://github.com/Geode-solutions/Vease-Viewer/commit/72a087c5520fa386c6ef75a139b276f048d9bbf0))
 
 
@@ -101,7 +111,7 @@ BREAKING CHANGE: changes cli command to vease-viewer
 
 ### Features
 
-- Trigger Semantic Realease
+- **SetupViewer**: Trigger Semantic Realease
   ([`ddef573`](https://github.com/Geode-solutions/Vease-Viewer/commit/ddef573231d93632e931aa6426afdda1a76f9e70))
 
 
@@ -109,7 +119,7 @@ BREAKING CHANGE: changes cli command to vease-viewer
 
 ### Bug Fixes
 
-- Test trigger semantic-release
+- **gh actions**: Test trigger semantic-release
   ([`0ba50a6`](https://github.com/Geode-solutions/Vease-Viewer/commit/0ba50a6cc4d7cfc917082ea91ee77c64b63d9849))
 
 
@@ -117,10 +127,10 @@ BREAKING CHANGE: changes cli command to vease-viewer
 
 ### Bug Fixes
 
-- Add pypi publish
+- **CICD**: Add pypi publish
   ([`b31fe86`](https://github.com/Geode-solutions/Vease-Viewer/commit/b31fe8662a3c233986bcb73b359742fd8bcb1ccb))
 
 ### Features
 
-- Add viewer
+- **viewer**: Add viewer
   ([`b01f028`](https://github.com/Geode-solutions/Vease-Viewer/commit/b01f02831f130d32a5233b4bc36722ed48b78f74))
