@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.0.0-rc.2 (2024-11-28)
+
+### Features
+
+- **deps**: Update ecosystem
+  ([`7ce0adc`](https://github.com/Geode-solutions/Vease-Viewer/commit/7ce0adc1c5b6e8d8005144485b622b369655f3f9))
+
+
 ## v2.0.0-rc.1 (2024-11-26)
 
 
