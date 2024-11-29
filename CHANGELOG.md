@@ -1,9 +1,15 @@
 # CHANGELOG
 
 
+## v2.0.0-rc.5 (2024-11-29)
+
+
 ## v2.0.0-rc.4 (2024-11-29)
 
 ### Bug Fixes
+
+- **deps**: Update requirements_gpu.txt
+  ([`8b4adb2`](https://github.com/Geode-solutions/Vease-Viewer/commit/8b4adb2e8997ac664e2ca928f8d38d8b7f691548))
 
 - **deps**: Update ecosystem
   ([`c5de16b`](https://github.com/Geode-solutions/Vease-Viewer/commit/c5de16b0ce7ae4b173843ba135ada45b76469bc1))
