@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.0.0-rc.6 (2024-11-29)
+
+### Bug Fixes
+
+- **deps**: Update requirements
+  ([`48db7e2`](https://github.com/Geode-solutions/Vease-Viewer/commit/48db7e28e6b8235ec1f7f9fcad41f89e21e166b0))
+
+
 ## v2.0.0-rc.5 (2024-11-29)
 
 
