@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.1.0-rc.2 (2024-12-09)
+
+### Features
+
+- **new version of ogwviewer**: V.1.1.0
+  ([`23bff27`](https://github.com/Geode-solutions/Vease-Viewer/commit/23bff2715a831f616f335da684e88c3290b4a46a))
+
+
 ## v2.1.0-rc.1 (2024-12-04)
 
 ### Features
