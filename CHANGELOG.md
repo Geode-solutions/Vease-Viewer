@@ -1,6 +1,9 @@
 # CHANGELOG
 
 
+## v2.1.1-rc.1 (2024-12-20)
+
+
 ## v2.1.0 (2024-12-09)
 
 
@@ -24,6 +27,14 @@
 
 
 ## v2.0.0-rc.7 (2024-12-02)
+
+### Bug Fixes
+
+- **deps**: Update ogw-viewer
+  ([`bbb113a`](https://github.com/Geode-solutions/Vease-Viewer/commit/bbb113a0148a1b6c90cfccc3698dbd75e7e0672c))
+
+- **deps**: Update ogw-viewer master
+  ([`02ff8d5`](https://github.com/Geode-solutions/Vease-Viewer/commit/02ff8d5ace353fd37ded295171e65e9b7e80d190))
 
 
 ## v2.0.0-rc.6 (2024-11-29)
