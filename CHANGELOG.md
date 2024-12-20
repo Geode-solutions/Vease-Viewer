@@ -1,9 +1,37 @@
 # CHANGELOG
 
 
+## v2.1.0 (2024-12-09)
+
+
+## v2.1.0-rc.2 (2024-12-09)
+
+### Features
+
+- **new version of ogwviewer**: V.1.1.0
+  ([`23bff27`](https://github.com/Geode-solutions/Vease-Viewer/commit/23bff2715a831f616f335da684e88c3290b4a46a))
+
+
+## v2.1.0-rc.1 (2024-12-04)
+
+### Features
+
+- **new version of ogwviewer**: Rc
+  ([`d0294ea`](https://github.com/Geode-solutions/Vease-Viewer/commit/d0294eacd1818263ef332e11f21a0a3a3d0a5172))
+
+
+## v2.0.0 (2024-12-02)
+
+
+## v2.0.0-rc.7 (2024-12-02)
+
+
 ## v2.0.0-rc.6 (2024-11-29)
 
 ### Bug Fixes
+
+- **deps**: Update requirements
+  ([`c789ff8`](https://github.com/Geode-solutions/Vease-Viewer/commit/c789ff8509fa6f40bf6d112317c7aa42095ec2b5))
 
 - **deps**: Update requirements
   ([`48db7e2`](https://github.com/Geode-solutions/Vease-Viewer/commit/48db7e28e6b8235ec1f7f9fcad41f89e21e166b0))
@@ -16,11 +44,11 @@
 
 ### Bug Fixes
 
-- **deps**: Update requirements_gpu.txt
-  ([`8b4adb2`](https://github.com/Geode-solutions/Vease-Viewer/commit/8b4adb2e8997ac664e2ca928f8d38d8b7f691548))
-
 - **deps**: Update ecosystem
   ([`c5de16b`](https://github.com/Geode-solutions/Vease-Viewer/commit/c5de16b0ce7ae4b173843ba135ada45b76469bc1))
+
+- **deps**: Update requirements_gpu.txt
+  ([`8b4adb2`](https://github.com/Geode-solutions/Vease-Viewer/commit/8b4adb2e8997ac664e2ca928f8d38d8b7f691548))
 
 
 ## v2.0.0-rc.3 (2024-11-28)
@@ -70,6 +98,10 @@
 
 BREAKING CHANGE: new ogw-viewer api
 
+### BREAKING CHANGES
+
+- **update deps**: New ogw-viewer api
+
 
 ## v1.0.0 (2024-10-29)
 
@@ -82,6 +114,10 @@ BREAKING CHANGE: new ogw-viewer api
   ([`c70c0d4`](https://github.com/Geode-solutions/Vease-Viewer/commit/c70c0d48041c7f840bcfca4ceb7da56758e8ea17))
 
 BREAKING CHANGE: changes cli command to vease-viewer
+
+### BREAKING CHANGES
+
+- **repo**: Changes cli command to vease-viewer
 
 
 ## v0.2.3 (2024-10-29)
@@ -130,11 +166,11 @@ BREAKING CHANGE: changes cli command to vease-viewer
 
 ### Bug Fixes
 
-- **imports**: Remove dotenv
-  ([`1760d4b`](https://github.com/Geode-solutions/Vease-Viewer/commit/1760d4bf9013f1b7be7d45f85d36dbf5c161f34f))
-
 - **host**: Update opengeodeweb-viewer
   ([`7770960`](https://github.com/Geode-solutions/Vease-Viewer/commit/77709605432d2294d55e4e9dd1b670a672d959ee))
+
+- **imports**: Remove dotenv
+  ([`1760d4b`](https://github.com/Geode-solutions/Vease-Viewer/commit/1760d4bf9013f1b7be7d45f85d36dbf5c161f34f))
 
 ### Features
 
