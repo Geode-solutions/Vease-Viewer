@@ -43,7 +43,7 @@ jsonschema-specifications==2023.12.1
     # via
     #   jsonschema
     #   opengeodeweb-viewer
-kiwisolver==1.4.7
+kiwisolver==1.4.8
     # via matplotlib
 matplotlib==3.10.0
     # via vtk
@@ -52,17 +52,17 @@ multidict==6.0.5
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-numpy==2.2.0
+numpy==2.2.1
     # via
     #   contourpy
     #   matplotlib
-opengeodeweb-viewer[gpu]==1.1.1
+opengeodeweb-viewer[gpu]==1.1.2
     # via -r requirements_gpu.in
 packaging==24.2
     # via matplotlib
-pillow==11.0.0
+pillow==11.1.0
     # via matplotlib
-pyparsing==3.2.0
+pyparsing==3.2.1
     # via matplotlib
 python-dateutil==2.9.0.post0
     # via matplotlib
