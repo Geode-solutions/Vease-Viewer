@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.2.0-rc.2 (2025-01-14)
+
+### Bug Fixes
+
+- **deps**: Ogw-viewer
+  ([`b104a65`](https://github.com/Geode-solutions/Vease-Viewer/commit/b104a65c61db193e9a7dab0746247e95ea9ee162))
+
+
 ## v2.2.0-rc.1 (2025-01-14)
 
 ### Features
