@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.2.0-rc.1 (2025-01-14)
+
+### Features
+
+- **microservice_version**: Route/schemas/deps
+  ([`315a610`](https://github.com/Geode-solutions/Vease-Viewer/commit/315a610f75902a6d45ea0fe668398444c5bc07a6))
+
+
 ## v2.1.2 (2025-01-03)
 
 
