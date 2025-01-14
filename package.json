@@ -3,7 +3,7 @@
   "version": "0.0.0-semantically-released",
   "description": "",
   "scripts": {
-    "json": "node ./node_modules/@geode/opengeodeweb-back/generate_schemas.js vease_viewer rpc rpc .",
+    "json": "npm explore @geode/opengeodeweb-back -- npm run json vease_viewer rpc rpc .",
     "test": "npm run json && pytest"
   },
   "dependencies": {
