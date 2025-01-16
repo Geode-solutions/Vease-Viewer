@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.2.2-rc.1 (2025-01-16)
+
+### Bug Fixes
+
+- **server**: Registervtkwebprotocol
+  ([`47cb9f7`](https://github.com/Geode-solutions/Vease-Viewer/commit/47cb9f768812f9ac9d978c3976c9d08a8f3c385e))
+
+
 ## v2.2.1 (2025-01-16)
 
 
