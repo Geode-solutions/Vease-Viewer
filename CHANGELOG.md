@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.2.3-rc.1 (2025-01-16)
+
+### Bug Fixes
+
+- **server**: Veaseviewerserver class
+  ([`c42bfad`](https://github.com/Geode-solutions/Vease-Viewer/commit/c42bfadf0f8a658592d5f761bb14c68ae8e13ba2))
+
+
 ## v2.2.2 (2025-01-16)
 
 
