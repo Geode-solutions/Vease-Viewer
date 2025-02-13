@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.2.4-rc.1 (2025-02-13)
+
+### Bug Fixes
+
+- **deps**: Update ogw-viewer master
+  ([`fc85d31`](https://github.com/Geode-solutions/Vease-Viewer/commit/fc85d31a1338b65a7bb8875faf98fc240adfb758))
+
+
 ## v2.2.3 (2025-01-16)
 
 
@@ -175,7 +183,7 @@
 
 BREAKING CHANGE: new ogw-viewer api
 
-### BREAKING CHANGES
+### Breaking Changes
 
 - **update deps**: New ogw-viewer api
 
@@ -192,7 +200,7 @@ BREAKING CHANGE: new ogw-viewer api
 
 BREAKING CHANGE: changes cli command to vease-viewer
 
-### BREAKING CHANGES
+### Breaking Changes
 
 - **repo**: Changes cli command to vease-viewer
 
