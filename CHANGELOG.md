@@ -1,6 +1,22 @@
 # CHANGELOG
 
 
+## v2.2.5-rc.2 (2025-02-19)
+
+### Bug Fixes
+
+- **points**: Render as sphere
+  ([`875b1f2`](https://github.com/Geode-solutions/Vease-Viewer/commit/875b1f23f296099e3e8bb0d233bb404e325452be))
+
+
+## v2.2.5-rc.1 (2025-02-17)
+
+### Bug Fixes
+
+- **docker_image**: Install repo as package
+  ([`339cf19`](https://github.com/Geode-solutions/Vease-Viewer/commit/339cf19dd0c613216f320facef003575ffa5d5a1))
+
+
 ## v2.2.4 (2025-02-13)
 
 
