@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.2.6-rc.1 (2025-02-27)
+
+### Bug Fixes
+
+- **requirements**: Update gpu
+  ([`d3c3ae7`](https://github.com/Geode-solutions/Vease-Viewer/commit/d3c3ae710165b32a08f1c8946048fc6340183472))
+
+
 ## v2.2.5 (2025-02-20)
 
 
