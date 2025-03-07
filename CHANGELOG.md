@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.3.0-rc.1 (2025-03-07)
+
+### Features
+
+- **textures**: Udpate ogw-viewer
+  ([`8e2ba5a`](https://github.com/Geode-solutions/Vease-Viewer/commit/8e2ba5aa060953d69b61974d97f093d60f61ed57))
+
+
 ## v2.2.6 (2025-02-27)
 
 
