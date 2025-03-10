@@ -7,7 +7,7 @@
     "test": "npm run json && pytest"
   },
   "dependencies": {
-    "@geode/opengeodeweb-back": "5.4.1"
+    "@geode/opengeodeweb-back": "5.6.2"
   },
   "exports": {
     "./schemas.json": {
@@ -15,7 +15,6 @@
       "require": "./schemas.json"
     }
   },
-
   "main": "generate_schemas.js",
   "repository": {
     "type": "git",
