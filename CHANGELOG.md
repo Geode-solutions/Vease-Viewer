@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.3.1-rc.1 (2025-03-10)
+
+### Bug Fixes
+
+- **npm deps**: Update schemas versions
+  ([`047dac0`](https://github.com/Geode-solutions/Vease-Viewer/commit/047dac01a7d6871bbf426ae743f862c4d553ef3a))
+
+
 ## v2.3.0 (2025-03-07)
 
 
