@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.3.2-rc.1 (2025-03-24)
+
+### Bug Fixes
+
+- **deps**: Update ecosystem
+  ([`85fee0d`](https://github.com/Geode-solutions/Vease-Viewer/commit/85fee0da21165cba34eaebed19969eca7d1e1a60))
+
+
 ## v2.3.1 (2025-03-10)
 
 
