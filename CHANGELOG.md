@@ -1,12 +1,18 @@
 # CHANGELOG
 
 
+## v2.3.3-rc.1 (2025-03-25)
+
+
 ## v2.3.2 (2025-03-24)
 
 
 ## v2.3.2-rc.1 (2025-03-24)
 
 ### Bug Fixes
+
+- **deps**: Opengeodeweb-viewer 1.6.1
+  ([`0c1fe78`](https://github.com/Geode-solutions/Vease-Viewer/commit/0c1fe78137a69628ae2e9bfdcb14203b4f7dcf8d))
 
 - **deps**: Update ecosystem
   ([`85fee0d`](https://github.com/Geode-solutions/Vease-Viewer/commit/85fee0da21165cba34eaebed19969eca7d1e1a60))
