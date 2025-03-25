@@ -56,13 +56,13 @@ numpy==2.2.4
     # via
     #   contourpy
     #   matplotlib
-opengeodeweb-viewer[gpu]==1.6.0
+opengeodeweb-viewer[gpu]==1.6.1
     # via -r requirements_gpu.in
 packaging==24.2
     # via matplotlib
 pillow==11.1.0
     # via matplotlib
-pyparsing==3.2.2
+pyparsing==3.2.3
     # via matplotlib
 python-dateutil==2.9.0.post0
     # via matplotlib
