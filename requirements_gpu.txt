@@ -56,7 +56,7 @@ numpy==2.2.4
     # via
     #   contourpy
     #   matplotlib
-opengeodeweb-viewer[gpu]==1.6.1
+opengeodeweb-viewer[gpu]==1.6.2
     # via -r requirements_gpu.in
 packaging==24.2
     # via matplotlib
