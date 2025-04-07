@@ -1,12 +1,18 @@
 # CHANGELOG
 
 
+## v2.3.5-rc.1 (2025-04-07)
+
+
 ## v2.3.4 (2025-04-02)
 
 
 ## v2.3.4-rc.1 (2025-04-02)
 
 ### Bug Fixes
+
+- **deps**: Update
+  ([`9425b43`](https://github.com/Geode-solutions/Vease-Viewer/commit/9425b4342f3e2a5884c1e5c0d3ae745bed582f47))
 
 - **new version of ogwviewer**: Visibility rpc
   ([`095d1ef`](https://github.com/Geode-solutions/Vease-Viewer/commit/095d1ef7513d81226a2f6ad08727e6e5437983aa))
