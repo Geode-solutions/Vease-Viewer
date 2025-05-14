@@ -42,7 +42,7 @@ multidict==6.0.5
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-opengeodeweb-viewer==1.6.3
+opengeodeweb-viewer==1.7.0
     # via -r requirements.in
 python-dotenv==1.0.1
     # via opengeodeweb-viewer
