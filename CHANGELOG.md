@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.3.6-rc.1 (2025-05-14)
+
+### Bug Fixes
+
+- **axes marker**: Optionnal axes bottom right
+  ([`c65960a`](https://github.com/Geode-solutions/Vease-Viewer/commit/c65960a0bb018c88657a0d3c5e7b3e06982e2dae))
+
+
 ## v2.3.5 (2025-04-07)
 
 
