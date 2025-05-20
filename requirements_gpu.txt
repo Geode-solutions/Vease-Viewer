@@ -52,11 +52,11 @@ multidict==6.0.5
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-numpy==2.2.5
+numpy==2.2.6
     # via
     #   contourpy
     #   matplotlib
-opengeodeweb-viewer[gpu]==1.7.0
+opengeodeweb-viewer[gpu]==1.7.1
     # via -r requirements_gpu.in
 packaging==25.0
     # via matplotlib
