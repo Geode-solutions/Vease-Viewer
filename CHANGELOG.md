@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v2.3.7-rc.1 (2025-05-20)
+
+### Bug Fixes
+
+- **axes**: Update ogw_viewer
+  ([`947f3f3`](https://github.com/Geode-solutions/Vease-Viewer/commit/947f3f3c1ff04fcae491b541b7c50831ff4b5208))
+
+
 ## v2.3.6 (2025-05-14)
 
 
