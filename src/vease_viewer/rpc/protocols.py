@@ -1,6 +1,6 @@
 # Standard library imports
 import os
-import pkg_resources
+import importlib.metadata as metadata
 
 # Third party imports
 from opengeodeweb_viewer.utils_functions import get_schemas_dict, validate_schema
@@ -21,4 +21,4 @@ class VtkVeaseViewerView(vtk_protocols.vtkWebProtocol):
         print(self.prefix + self.schemas_dict["microservice_version"]["rpc"], f"{params=}", flush=True)
         validate_schema(params, self.schemas_dict["microservice_version"])
 
-        return {"microservice_version": pkg_resources.get_distribution("vease_viewer").version}
+        return {"microservice_version": metadata.distribution("vease_viewer").version}
