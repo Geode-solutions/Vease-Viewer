@@ -1,6 +1,17 @@
 # CHANGELOG
 
 
+## v2.3.8 (2025-05-21)
+
+
+## v2.3.8-rc.1 (2025-05-21)
+
+### Bug Fixes
+
+- **python**: 3.12 compatibility
+  ([`d242787`](https://github.com/Geode-solutions/Vease-Viewer/commit/d242787ed8d3cadc8b4dccdce34a7a9ac9f9231c))
+
+
 ## v2.3.7 (2025-05-20)
 
 
