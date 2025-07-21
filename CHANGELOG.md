@@ -1,6 +1,59 @@
 # CHANGELOG
 
 
+## v2.3.8 (2025-05-21)
+
+
+## v2.3.8-rc.1 (2025-05-21)
+
+### Bug Fixes
+
+- **python**: 3.12 compatibility
+  ([`d242787`](https://github.com/Geode-solutions/Vease-Viewer/commit/d242787ed8d3cadc8b4dccdce34a7a9ac9f9231c))
+
+
+## v2.3.7 (2025-05-20)
+
+
+## v2.3.7-rc.1 (2025-05-20)
+
+### Bug Fixes
+
+- **axes**: Update ogw_viewer
+  ([`947f3f3`](https://github.com/Geode-solutions/Vease-Viewer/commit/947f3f3c1ff04fcae491b541b7c50831ff4b5208))
+
+
+## v2.3.6 (2025-05-14)
+
+
+## v2.3.6-rc.1 (2025-05-14)
+
+### Bug Fixes
+
+- **axes marker**: Optionnal axes bottom right
+  ([`c65960a`](https://github.com/Geode-solutions/Vease-Viewer/commit/c65960a0bb018c88657a0d3c5e7b3e06982e2dae))
+
+
+## v2.3.5 (2025-04-07)
+
+
+## v2.3.5-rc.1 (2025-04-07)
+
+
+## v2.3.4 (2025-04-02)
+
+
+## v2.3.4-rc.1 (2025-04-02)
+
+### Bug Fixes
+
+- **deps**: Update
+  ([`9425b43`](https://github.com/Geode-solutions/Vease-Viewer/commit/9425b4342f3e2a5884c1e5c0d3ae745bed582f47))
+
+- **new version of ogwviewer**: Visibility rpc
+  ([`095d1ef`](https://github.com/Geode-solutions/Vease-Viewer/commit/095d1ef7513d81226a2f6ad08727e6e5437983aa))
+
+
 ## v2.3.3 (2025-03-25)
 
 
