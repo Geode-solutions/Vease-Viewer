@@ -1,0 +1,13 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    uses: Geode-solutions/actions/.github/workflows/py-deploy.yml@master
+    with:
+      wheel: true
+      docker: true
+      npm: true
+    secrets: inherit
