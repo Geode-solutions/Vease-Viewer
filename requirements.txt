@@ -8,7 +8,7 @@ aiohappyeyeballs==2.6.1
     # via
     #   aiohttp
     #   opengeodeweb-viewer
-aiohttp==3.12.14
+aiohttp==3.12.15
     # via
     #   opengeodeweb-viewer
     #   wslink
@@ -16,8 +16,6 @@ aiosignal==1.4.0
     # via
     #   aiohttp
     #   opengeodeweb-viewer
-async-timeout==5.0.1
-    # via opengeodeweb-viewer
 attrs==25.3.0
     # via
     #   aiohttp
@@ -38,7 +36,7 @@ multidict==6.6.3
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-opengeodeweb-viewer==1.*,>=1.10.1
+opengeodeweb-viewer==1.*,>=1.11.0rc1
     # via -r requirements.in
 propcache==0.3.2
     # via
