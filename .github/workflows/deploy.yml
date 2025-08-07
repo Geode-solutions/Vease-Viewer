@@ -7,7 +7,6 @@ jobs:
   deploy:
     uses: Geode-solutions/actions/.github/workflows/py-deploy.yml@master
     with:
-      python: true
       docker: true
       npm: true
     secrets: inherit
