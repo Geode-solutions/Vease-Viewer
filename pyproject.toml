@@ -2,10 +2,9 @@
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
-
 [project]
 name = "Vease-Viewer"
-version = "2.3.13"
+version = "0.0.0"
 dynamic = ["dependencies"]
 authors = [
   { name="Geode-solutions", email="team-web@geode-solutions.com" },
@@ -39,18 +38,3 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 "vease_viewer.rpc.schemas" = ["*.json"]
-
-[tool.semantic_release]
-version_toml = [
-    "pyproject.toml:project.version",
-]
-
-[tool.semantic_release.remote.token]
-env = "GH_TOKEN"
-
-[tool.semantic_release.branches.master]
-match = "master"
-
-[tool.semantic_release.branches.next]
-match = "next"
-prerelease = true
