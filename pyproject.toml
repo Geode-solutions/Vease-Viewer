@@ -31,7 +31,7 @@ vease-viewer = "vease_viewer.app:run_viewer"
 
 
 [tool.setuptools.dynamic]
-dependencies = {file = ["requirements_gpu.txt"]}
+dependencies = {file = ["requirements.txt"]}
 
 [tool.setuptools.packages.find]
 where = ["src"]
