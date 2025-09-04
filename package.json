@@ -11,9 +11,9 @@
     "@geode/opengeodeweb-back": "latest"
   },
   "exports": {
-    "./schemas.json": {
-      "import": "./schemas.json",
-      "require": "./schemas.json"
+    "./vease_viewer_schemas.json": {
+      "import": "./vease_viewer_schemas.json",
+      "require": "./vease_viewer_schemas.json"
     }
   },
   "main": "generate_schemas.js",
@@ -35,6 +35,6 @@
     "access": "public"
   },
   "files": [
-    "schemas.json"
+    "vease_viewer_schemas.json"
   ]
 }
