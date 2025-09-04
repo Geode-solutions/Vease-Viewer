@@ -31,19 +31,19 @@ idna==3.10
     # via
     #   opengeodeweb-viewer
     #   yarl
-multidict==6.6.3
+multidict==6.6.4
     # via
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-opengeodeweb-viewer==1.*,>=1.11.0rc3
+opengeodeweb-viewer==1.*,>=1.11.0rc4
     # via -r requirements.in
 propcache==0.3.2
     # via
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-typing-extensions==4.14.1
+typing-extensions==4.15.0
     # via
     #   aiosignal
     #   opengeodeweb-viewer
