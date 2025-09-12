@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "json": "ogw-generate-schemas vease_viewer rpc rpc .",
+    "json": "node ./node_modules/@geode/opengeodeweb-microservice/generate_schemas.js vease_viewer rpc rpc .",
     "test": "npm run json",
     "build": "npm run json"
   },
@@ -16,7 +16,6 @@
       "require": "./vease_viewer_schemas.json"
     }
   },
-  "main": "generate_schemas.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Geode-solutions/Vease-Viewer.git"
