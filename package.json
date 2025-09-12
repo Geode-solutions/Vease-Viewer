@@ -1,22 +1,21 @@
 {
   "name": "@geode/vease-viewer",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0",
   "description": "",
   "scripts": {
-    "json": "node ./node_modules/@geode/opengeodeweb-back/generate_schemas.js vease_viewer rpc rpc .",
+    "json": "node ./node_modules/@geode/opengeodeweb-microservice/generate_schemas.js vease_viewer rpc rpc .",
     "test": "npm run json",
     "build": "npm run json"
   },
   "dependencies": {
-    "@geode/opengeodeweb-back": "latest"
+    "@geode/opengeodeweb-microservice": "latest"
   },
   "exports": {
-    "./schemas.json": {
-      "import": "./schemas.json",
-      "require": "./schemas.json"
+    "./vease_viewer_schemas.json": {
+      "import": "./vease_viewer_schemas.json",
+      "require": "./vease_viewer_schemas.json"
     }
   },
-  "main": "generate_schemas.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Geode-solutions/Vease-Viewer.git"
@@ -35,6 +34,6 @@
     "access": "public"
   },
   "files": [
-    "schemas.json"
+    "vease_viewer_schemas.json"
   ]
 }
