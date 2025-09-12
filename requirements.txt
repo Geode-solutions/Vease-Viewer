@@ -20,35 +20,83 @@ attrs==25.3.0
     # via
     #   aiohttp
     #   opengeodeweb-viewer
+blinker==1.9.0
+    # via
+    #   flask
+    #   opengeodeweb-viewer
+click==8.2.1
+    # via
+    #   flask
+    #   opengeodeweb-viewer
 fastjsonschema==2.21.1
-    # via opengeodeweb-viewer
+    # via
+    #   opengeodeweb-microservice
+    #   opengeodeweb-viewer
+flask==3.1.2
+    # via
+    #   flask-sqlalchemy
+    #   opengeodeweb-viewer
+flask-sqlalchemy==3.1.1
+    # via
+    #   opengeodeweb-microservice
+    #   opengeodeweb-viewer
 frozenlist==1.7.0
     # via
     #   aiohttp
     #   aiosignal
     #   opengeodeweb-viewer
+greenlet==3.2.4
+    # via
+    #   opengeodeweb-viewer
+    #   sqlalchemy
 idna==3.10
     # via
     #   opengeodeweb-viewer
     #   yarl
+itsdangerous==2.2.0
+    # via
+    #   flask
+    #   opengeodeweb-viewer
+jinja2==3.1.6
+    # via
+    #   flask
+    #   opengeodeweb-viewer
+markupsafe==3.0.2
+    # via
+    #   flask
+    #   jinja2
+    #   opengeodeweb-viewer
+    #   werkzeug
 multidict==6.6.4
     # via
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-opengeodeweb-viewer==1.*,>=1.11.0rc4
+opengeodeweb-microservice==1.0.0
+    # via opengeodeweb-viewer
+opengeodeweb-viewer==1.*,>=1.11.0rc5
     # via -r requirements.in
 propcache==0.3.2
     # via
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
+sqlalchemy==2.0.43
+    # via
+    #   flask-sqlalchemy
+    #   opengeodeweb-microservice
+    #   opengeodeweb-viewer
 typing-extensions==4.15.0
     # via
     #   aiosignal
     #   opengeodeweb-viewer
+    #   sqlalchemy
 websocket-client==1.8.0
     # via opengeodeweb-viewer
+werkzeug==3.1.3
+    # via
+    #   flask
+    #   opengeodeweb-viewer
 wslink==1.12.4
     # via opengeodeweb-viewer
 yarl==1.20.1
