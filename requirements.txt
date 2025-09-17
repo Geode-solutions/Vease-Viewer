@@ -74,7 +74,7 @@ multidict==6.6.4
     #   yarl
 opengeodeweb-microservice==1.0.0
     # via opengeodeweb-viewer
-opengeodeweb-viewer==1.*,>=1.11.0rc5
+opengeodeweb-viewer==1.*,>=1.11.0rc6
     # via -r requirements.in
 propcache==0.3.2
     # via
