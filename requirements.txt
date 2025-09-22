@@ -24,7 +24,7 @@ blinker==1.9.0
     # via
     #   flask
     #   opengeodeweb-viewer
-click==8.2.1
+click==8.3.0
     # via
     #   flask
     #   opengeodeweb-viewer
@@ -74,7 +74,7 @@ multidict==6.6.4
     #   yarl
 opengeodeweb-microservice==1.0.0
     # via opengeodeweb-viewer
-opengeodeweb-viewer==1.*,>=1.11.0rc6
+opengeodeweb-viewer==1.*,>=1.11.0rc7
     # via -r requirements.in
 propcache==0.3.2
     # via
