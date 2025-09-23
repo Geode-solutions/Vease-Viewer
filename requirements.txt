@@ -72,7 +72,7 @@ multidict==6.6.4
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-opengeodeweb-microservice==1.0.0
+opengeodeweb-microservice==1.*,>=1.0.0
     # via opengeodeweb-viewer
 opengeodeweb-viewer==1.*,>=1.11.0rc7
     # via -r requirements.in
