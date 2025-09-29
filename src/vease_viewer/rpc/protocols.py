@@ -27,3 +27,8 @@ class VtkVeaseViewerView(vtk_protocols.vtkWebProtocol):
         validate_schema(params, self.schemas_dict["microservice_version"])
 
         return {"microservice_version": metadata.distribution("vease_viewer").version}
+
+    @exportRpc("kill")
+    def kill(self):
+        print("Manual viewer kill, shutting down...", flush=True)
+        os._exit(0)
