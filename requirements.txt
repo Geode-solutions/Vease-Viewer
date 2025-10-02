@@ -4,63 +4,63 @@
 #
 #    pip-compile --output-file=./requirements.txt --pre ./requirements-internal.in ./requirements.in
 #
-aiohappyeyeballs==2.*
+aiohappyeyeballs~=2.0
     # via
     #   aiohttp
     #   opengeodeweb-viewer
-aiohttp==3.*
+aiohttp~=3.0
     # via
     #   opengeodeweb-viewer
     #   wslink
-aiosignal==1.*
+aiosignal~=1.0
     # via
     #   aiohttp
     #   opengeodeweb-viewer
-attrs==25.*
+attrs~=25.0
     # via
     #   aiohttp
     #   opengeodeweb-viewer
-blinker==1.*
+blinker~=1.0
     # via
     #   flask
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-click==8.*
+click~=8.0
     # via
     #   flask
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-contourpy==1.*
+contourpy~=1.0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-cycler==0.*
+cycler~=0.0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-fastjsonschema==2.*
+fastjsonschema~=2.0
     # via
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-flask==3.*
+flask~=3.0
     # via
     #   flask-sqlalchemy
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-flask-sqlalchemy==3.*
+flask-sqlalchemy~=3.0
     # via
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-fonttools==4.*
+fonttools~=4.0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-frozenlist==1.*
+frozenlist~=1.0
     # via
     #   aiohttp
     #   aiosignal
     #   opengeodeweb-viewer
-greenlet==3.*
+greenlet~=3.0
     # via
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
@@ -69,12 +69,12 @@ idna==3.10
     # via
     #   opengeodeweb-viewer
     #   yarl
-itsdangerous==2.*
+itsdangerous~=2.0
     # via
     #   flask
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-jinja2==3.*
+jinja2~=3.0
     # via
     #   flask
     #   opengeodeweb-microservice
@@ -83,40 +83,40 @@ kiwisolver==1.4.10rc0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-markupsafe==3.*
+markupsafe~=3.0
     # via
     #   flask
     #   jinja2
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
     #   werkzeug
-matplotlib==3.*
+matplotlib~=3.0
     # via
     #   opengeodeweb-viewer
     #   vtk
-multidict==6.*
+multidict~=6.0
     # via
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-numpy==2.*
+numpy~=2.0
     # via
     #   contourpy
     #   matplotlib
     #   opengeodeweb-viewer
-opengeodeweb-microservice==1.0.1rc2
+opengeodeweb-microservice==1.0.1rc3
     # via opengeodeweb-viewer
-opengeodeweb-viewer==1.11.0rc10
+opengeodeweb-viewer==1.11.0rc11
     # via -r requirements-internal.in
 packaging==25.0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-pillow==11.*
+pillow~=11.0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-propcache==0.*
+propcache~=0.0
     # via
     #   aiohttp
     #   opengeodeweb-viewer
@@ -129,33 +129,33 @@ python-dateutil==2.9.0.post0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-six==1.*
+six~=1.0
     # via
     #   opengeodeweb-viewer
     #   python-dateutil
-sqlalchemy==2.*
+sqlalchemy~=2.0
     # via
     #   flask-sqlalchemy
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-typing-extensions==4.*
+typing-extensions~=4.0
     # via
     #   aiosignal
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
     #   sqlalchemy
-vtk==9.*
+vtk~=9.0
     # via opengeodeweb-viewer
-websocket-client==1.*
+websocket-client~=1.0
     # via opengeodeweb-viewer
-werkzeug==3.*
+werkzeug~=3.0
     # via
     #   flask
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-wslink==1.*
+wslink~=1.0
     # via opengeodeweb-viewer
-yarl==1.*
+yarl~=1.0
     # via
     #   aiohttp
     #   opengeodeweb-viewer
