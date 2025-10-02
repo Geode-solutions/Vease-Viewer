@@ -4,63 +4,63 @@
 #
 #    pip-compile --output-file=./requirements.txt --pre ./requirements-internal.in ./requirements.in
 #
-aiohappyeyeballs==2.*,>=2.6.1
+aiohappyeyeballs==2.*
     # via
     #   aiohttp
     #   opengeodeweb-viewer
-aiohttp==3.*,>=3.12.15
+aiohttp==3.*
     # via
     #   opengeodeweb-viewer
     #   wslink
-aiosignal==1.*,>=1.4.0
+aiosignal==1.*
     # via
     #   aiohttp
     #   opengeodeweb-viewer
-attrs==25.*,>=25.3.0
+attrs==25.*
     # via
     #   aiohttp
     #   opengeodeweb-viewer
-blinker==1.*,>=1.9.0
+blinker==1.*
     # via
     #   flask
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-click==8.*,>=8.3.0
+click==8.*
     # via
     #   flask
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-contourpy==1.*,>=1.3.3
+contourpy==1.*
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-cycler==0.*,>=0.12.1
+cycler==0.*
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-fastjsonschema==2.*,>=2.21.1
+fastjsonschema==2.*
     # via
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-flask==3.*,>=3.1.2
+flask==3.*
     # via
     #   flask-sqlalchemy
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-flask-sqlalchemy==3.*,>=3.1.1
+flask-sqlalchemy==3.*
     # via
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-fonttools==4.*,>=4.60.1
+fonttools==4.*
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-frozenlist==1.*,>=1.7.0
+frozenlist==1.*
     # via
     #   aiohttp
     #   aiosignal
     #   opengeodeweb-viewer
-greenlet==3.*,>=3.2.4
+greenlet==3.*
     # via
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
@@ -69,93 +69,93 @@ idna==3.10
     # via
     #   opengeodeweb-viewer
     #   yarl
-itsdangerous==2.*,>=2.2.0
+itsdangerous==2.*
     # via
     #   flask
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-jinja2==3.*,>=3.1.6
+jinja2==3.*
     # via
     #   flask
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-kiwisolver==1.*,>=1.4.10rc0
+kiwisolver==1.4.10rc0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-markupsafe==3.*,>=3.0.2
+markupsafe==3.*
     # via
     #   flask
     #   jinja2
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
     #   werkzeug
-matplotlib==3.*,>=3.10.6
+matplotlib==3.*
     # via
     #   opengeodeweb-viewer
     #   vtk
-multidict==6.*,>=6.6.4
+multidict==6.*
     # via
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-numpy==2.*,>=2.3.3
+numpy==2.*
     # via
     #   contourpy
     #   matplotlib
     #   opengeodeweb-viewer
-opengeodeweb-microservice==1.*,>=1.0.1rc1
+opengeodeweb-microservice==1.0.1rc2
     # via opengeodeweb-viewer
-opengeodeweb-viewer==1.*,>=1.11.0rc9
+opengeodeweb-viewer==1.11.0rc10
     # via -r requirements-internal.in
 packaging==25.0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-pillow==11.*,>=11.3.0
+pillow==11.*
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-propcache==0.*,>=0.3.2
+propcache==0.*
     # via
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-pyparsing==3.*,>=3.3.0a1
+pyparsing==3.3.0a1
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-python-dateutil==2.9.*,>=2.9.0.post0
+python-dateutil==2.9.0.post0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
-six==1.*,>=1.17.0
+six==1.*
     # via
     #   opengeodeweb-viewer
     #   python-dateutil
-sqlalchemy==2.*,>=2.0.43
+sqlalchemy==2.*
     # via
     #   flask-sqlalchemy
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-typing-extensions==4.*,>=4.15.0
+typing-extensions==4.*
     # via
     #   aiosignal
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
     #   sqlalchemy
-vtk==9.*,>=9.5.2
+vtk==9.*
     # via opengeodeweb-viewer
-websocket-client==1.*,>=1.8.0
+websocket-client==1.*
     # via opengeodeweb-viewer
-werkzeug==3.*,>=3.1.3
+werkzeug==3.*
     # via
     #   flask
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-wslink==1.*,>=1.12.4
+wslink==1.*
     # via opengeodeweb-viewer
-yarl==1.*,>=1.20.1
+yarl==1.*
     # via
     #   aiohttp
     #   opengeodeweb-viewer
