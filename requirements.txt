@@ -47,7 +47,7 @@ flask~=3.0
     #   flask-sqlalchemy
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-flask-sqlalchemy==3.1.1
+flask-sqlalchemy~=3.0
     # via
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
@@ -104,9 +104,9 @@ numpy~=2.0
     #   contourpy
     #   matplotlib
     #   opengeodeweb-viewer
-opengeodeweb-microservice==1.0.1rc3
+opengeodeweb-microservice~=1.0
     # via opengeodeweb-viewer
-opengeodeweb-viewer==1.11.0rc12
+opengeodeweb-viewer~=1.0
     # via -r requirements-internal.in
 packaging~=25.0
     # via
@@ -138,7 +138,7 @@ sqlalchemy~=2.0
     #   flask-sqlalchemy
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-typing-extensions==4.15.0
+typing-extensions~=4.0
     # via
     #   aiosignal
     #   opengeodeweb-microservice
@@ -146,7 +146,7 @@ typing-extensions==4.15.0
     #   sqlalchemy
 vtk~=9.0
     # via opengeodeweb-viewer
-websocket-client==1.8.0
+websocket-client~=1.0
     # via opengeodeweb-viewer
 werkzeug~=3.0
     # via
