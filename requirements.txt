@@ -106,7 +106,7 @@ numpy~=2.3
     #   opengeodeweb-viewer
 opengeodeweb-microservice~=1.0
     # via opengeodeweb-viewer
-opengeodeweb-viewer~=1.11,>=1.11.0
+opengeodeweb-viewer~=1.11,>=1.11.2
     # via -r requirements-internal.in
 packaging==25.0
     # via
