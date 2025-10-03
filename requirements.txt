@@ -47,7 +47,7 @@ flask~=3.0
     #   flask-sqlalchemy
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-flask-sqlalchemy~=3.0
+flask-sqlalchemy==3.1.1
     # via
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
@@ -65,7 +65,7 @@ greenlet~=3.0
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
     #   sqlalchemy
-idna==3.10
+idna~=3.0
     # via
     #   opengeodeweb-viewer
     #   yarl
@@ -79,7 +79,7 @@ jinja2~=3.0
     #   flask
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-kiwisolver==1.4.10rc0
+kiwisolver~=1.0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
@@ -106,9 +106,9 @@ numpy~=2.0
     #   opengeodeweb-viewer
 opengeodeweb-microservice==1.0.1rc3
     # via opengeodeweb-viewer
-opengeodeweb-viewer==1.11.0rc11
+opengeodeweb-viewer==1.11.0rc12
     # via -r requirements-internal.in
-packaging==25.0
+packaging~=25.0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
@@ -121,7 +121,7 @@ propcache~=0.0
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-pyparsing==3.3.0a1
+pyparsing~=3.0
     # via
     #   matplotlib
     #   opengeodeweb-viewer
@@ -138,7 +138,7 @@ sqlalchemy~=2.0
     #   flask-sqlalchemy
     #   opengeodeweb-microservice
     #   opengeodeweb-viewer
-typing-extensions~=4.0
+typing-extensions==4.15.0
     # via
     #   aiosignal
     #   opengeodeweb-microservice
@@ -146,7 +146,7 @@ typing-extensions~=4.0
     #   sqlalchemy
 vtk~=9.0
     # via opengeodeweb-viewer
-websocket-client~=1.0
+websocket-client==1.8.0
     # via opengeodeweb-viewer
 werkzeug~=3.0
     # via
