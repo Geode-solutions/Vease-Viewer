@@ -2,10 +2,9 @@
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
-
 [project]
 name = "Vease-Viewer"
-version = "2.3.13"
+version = "0.0.0"
 dynamic = ["dependencies"]
 authors = [
   { name="Geode-solutions", email="team-web@geode-solutions.com" },
@@ -19,9 +18,6 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-[project.optional-dependencies]
-gpu = ["vtk == 9.*"]
-
 [project.urls]
 "Homepage" = "https://github.com/Geode-solutions/Vease-Viewer"
 "Bug Tracker" = "https://github.com/Geode-solutions/Vease-Viewer/issues"
@@ -29,27 +25,11 @@ gpu = ["vtk == 9.*"]
 [project.scripts]
 vease-viewer = "vease_viewer.app:run_viewer"
 
-
 [tool.setuptools.dynamic]
-dependencies = {file = ["requirements_gpu.txt"]}
+dependencies = {file = ["requirements.txt"]}
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.package-data]
 "vease_viewer.rpc.schemas" = ["*.json"]
-
-[tool.semantic_release]
-version_toml = [
-    "pyproject.toml:project.version",
-]
-
-[tool.semantic_release.remote.token]
-env = "GH_TOKEN"
-
-[tool.semantic_release.branches.master]
-match = "master"
-
-[tool.semantic_release.branches.next]
-match = "next"
-prerelease = true
