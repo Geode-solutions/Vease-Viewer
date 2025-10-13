@@ -5,4 +5,4 @@
 #    pip-compile --output-file=./requirements.txt ./requirements.in
 #
 
-opengeodeweb-viewer~=1.11
+opengeodeweb-viewer==1.*,>=1.11.3rc6
