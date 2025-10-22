@@ -5,7 +5,7 @@ import importlib.metadata as metadata
 # Third party imports
 from opengeodeweb_microservice.schemas import get_schemas_dict
 from opengeodeweb_viewer.utils_functions import validate_schema, RpcParams
-from vtk.web import protocols as vtk_protocols
+from vtkmodules.web import protocols as vtk_protocols
 from wslink import register as exportRpc
 
 # Local application imports
