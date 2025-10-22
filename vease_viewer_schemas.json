@@ -1,0 +1,12 @@
+{
+  "vease_viewer": {
+    "microservice_version": {
+      "$id": "vease_viewer.microservice_version",
+      "rpc": "microservice_version",
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  }
+}
