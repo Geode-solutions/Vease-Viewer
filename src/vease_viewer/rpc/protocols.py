@@ -11,7 +11,7 @@ from wslink import register as exportRpc
 # Local application imports
 
 
-class VtkVeaseViewerView(vtk_protocols.vtkWebProtocol):  # type: ignore
+class VtkVeaseViewerView(vtk_protocols.vtkWebProtocol):
     prefix = "vease_viewer."
     schemas_dict = get_schemas_dict(os.path.join(os.path.dirname(__file__), "schemas"))
 
