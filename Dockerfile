@@ -3,7 +3,7 @@ FROM python:3.12-slim
 WORKDIR /app
 
 COPY . .
-RUN apt-get update && apt-get install -y libx11-dev libxrender-dev
+RUN apt-get update && apt-get install -y libx11-dev libxrender-dev libosmesa6-dev
 RUN pip3 install .
 ENV PYTHON_ENV="prod"
 
