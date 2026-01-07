@@ -8,12 +8,12 @@ from vease_viewer.rpc.protocols import VtkVeaseViewerView
 
 
 class VeaseViewerServer(_Server):
-    def initialize(self):
+    def initialize(self) -> None:
         _Server.initialize(self)
         self.registerVtkWebProtocol(VtkVeaseViewerView())
 
 
-def run_viewer():
+def run_viewer() -> None:
     run_server(VeaseViewerServer)
 
 
