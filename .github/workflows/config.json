@@ -1,4 +1,5 @@
 {
   "node": true,
-  "docker": true
+  "docker": true,
+  "pyinstaller": true
 }
