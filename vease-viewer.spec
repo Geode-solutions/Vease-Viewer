@@ -26,6 +26,7 @@ a = Analysis(
     optimize=0,
 )
 if sys.platform.startswith('linux'):
+    a.exclude_system_libraries()
     exclude_patterns = [
         'libX11', 'libXext', 'libXrender', 'libXcursor', 'libXfixes', 'libXi',
         'libXinerama', 'libXrandr', 'libXcomposite', 'libXdamage', 'libXxf86vm',
