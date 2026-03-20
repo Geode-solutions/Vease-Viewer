@@ -24,35 +24,29 @@ a = Analysis(
     noarchive=False,
     optimize=0,
 )
+if sys.platform.startswith('linux'):
+    exclude_patterns = [
+        'libX11', 'libXext', 'libXrender', 'libXcursor', 'libXfixes', 'libXi',
+        'libXinerama', 'libXrandr', 'libXcomposite', 'libXdamage', 'libXxf86vm',
+        'libxcb', 'libxkbcommon', 'libwayland', 'libEGL', 'libGLESv2',
+        'libGL', 'libGLX', 'libz.so', 'libbz2.so', 'libstdc++.so', 'libgcc_s.so'
+    ]
 
-to_exclude = [
-    'opengl32',
-    'opengl32sw',
-    'libEGL',
-    'libGLESv2',
-    'libX11',
-    'libXext',
-    'libXrender',
-    'libXcursor',
-    'libXfixes',
-    'libXi',
-    'libXinerama',
-    'libXrandr',
-    'libXcomposite',
-    'libXdamage',
-    'libXxf86vm',
-    'libxcb',
-    'libxkbcommon',
-    'libwayland',
-]
-a.binaries = TOC([
-    entry for entry in a.binaries
-    if not any(
-        entry[0].lower().startswith(prefix.lower())
-        for prefix in to_exclude
-    )
-])
+    a.binaries = [entry for entry in a.binaries
+                  if not any(pat.lower() in entry[0].lower() for pat in exclude_patterns)]
 
+elif sys.platform.startswith('win'):
+    exclude_patterns_win = [
+        'opengl32.dll',
+        'libEGL.dll',
+        'libGLESv2.dll',
+        'd3dcompiler_*.dll',     # often not needed if using system DirectX
+        'libcrypto-*.dll',       # ← only if you provide your own OpenSSL
+        'libssl-*.dll',
+    ]
+
+    a.binaries = [entry for entry in a.binaries
+                  if not any(pat.lower() in entry[0].lower() for pat in exclude_patterns_win)]
 pyz = PYZ(a.pure)
 
 exe = EXE(
