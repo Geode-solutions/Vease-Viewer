@@ -6,11 +6,16 @@ import sys
 datas = []
 binaries = []
 hiddenimports = []
+runtime_hooks = []
 datas += collect_data_files('opengeodeweb_viewer')
 datas += collect_data_files('vease_viewer')
 tmp_ret = collect_all('vtkmodules')
 datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 
+if sys.platform.startswith('linux'):
+    binaries.append(('/usr/lib/x86_64-linux-gnu/libGL*.so*', '.'))
+    binaries.append(('/usr/lib/x86_64-linux-gnu/dri', 'dri'))
+    runtime_hooks.append('hook.py')
 
 a = Analysis(
     ['src/vease_viewer/app.py'],
@@ -20,35 +25,24 @@ a = Analysis(
     hiddenimports=hiddenimports,
     hookspath=[],
     hooksconfig={},
-    runtime_hooks=[],
+    runtime_hooks=runtime_hooks,
     excludes=[],
     noarchive=False,
     optimize=0,
 )
-if sys.platform.startswith('linux'):
-    a.exclude_system_libraries()
-    exclude_patterns = [
-        'libX11', 'libXext', 'libXrender', 'libXcursor', 'libXfixes', 'libXi',
-        'libXinerama', 'libXrandr', 'libXcomposite', 'libXdamage', 'libXxf86vm',
-        'libxcb', 'libxkbcommon', 'libwayland', 'libEGL', 'libGLESv2',
-        'libGL', 'libGLX', 'libz.so', 'libbz2.so', 'libstdc++.so', 'libgcc_s.so'
-    ]
 
-    a.binaries = [entry for entry in a.binaries
-                  if not any(pat.lower() in entry[0].lower() for pat in exclude_patterns)]
+to_exclude = [
+    'opengl32.dll',
+    'opengl32sw.dll',
+    'libEGL.dll',
+    'libGLESv2.dll'
+]
+excluded_norm = {os.path.normcase(x) for x in to_exclude}
+a.binaries = TOC([
+    entry for entry in a.binaries
+    if os.path.normcase(entry[0]) not in excluded_norm
+])
 
-elif sys.platform.startswith('win'):
-    exclude_patterns_win = [
-        'opengl32.dll',
-        'libEGL.dll',
-        'libGLESv2.dll',
-        'd3dcompiler_*.dll',     # often not needed if using system DirectX
-        'libcrypto-*.dll',       # ← only if you provide your own OpenSSL
-        'libssl-*.dll',
-    ]
-
-    a.binaries = [entry for entry in a.binaries
-                  if not any(pat.lower() in entry[0].lower() for pat in exclude_patterns_win)]
 pyz = PYZ(a.pure)
 
 exe = EXE(
