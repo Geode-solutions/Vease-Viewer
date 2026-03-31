@@ -1,15 +1,24 @@
 # -*- mode: python ; coding: utf-8 -*-
 from PyInstaller.utils.hooks import collect_data_files
 from PyInstaller.utils.hooks import collect_all
+import sys
 
 datas = []
 binaries = []
 hiddenimports = []
+runtime_hooks = []
 datas += collect_data_files('opengeodeweb_viewer')
 datas += collect_data_files('vease_viewer')
 tmp_ret = collect_all('vtkmodules')
 datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 
+if sys.platform.startswith('linux'):
+    binaries.append(('/usr/lib/x86_64-linux-gnu/libGL*.so*', '.'))
+    binaries.append(('/usr/lib/x86_64-linux-gnu/libEGL*.so*', '.'))
+    binaries.append(('/usr/lib/x86_64-linux-gnu/libOSMesa*.so*', '.'))
+    binaries.append(('/usr/lib/x86_64-linux-gnu/libglapi.so*', '.'))
+    binaries.append(('/usr/lib/x86_64-linux-gnu/dri', 'dri'))
+    runtime_hooks.append('hook.py')
 
 a = Analysis(
     ['src/vease_viewer/app.py'],
@@ -19,38 +28,22 @@ a = Analysis(
     hiddenimports=hiddenimports,
     hookspath=[],
     hooksconfig={},
-    runtime_hooks=[],
+    runtime_hooks=runtime_hooks,
     excludes=[],
     noarchive=False,
     optimize=0,
 )
 
 to_exclude = [
-    'opengl32',
-    'opengl32sw',
-    'libEGL',
-    'libGLESv2',
-    'libX11',
-    'libXext',
-    'libXrender',
-    'libXcursor',
-    'libXfixes',
-    'libXi',
-    'libXinerama',
-    'libXrandr',
-    'libXcomposite',
-    'libXdamage',
-    'libXxf86vm',
-    'libxcb',
-    'libxkbcommon',
-    'libwayland',
+    'opengl32.dll',
+    'opengl32sw.dll',
+    'libEGL.dll',
+    'libGLESv2.dll'
 ]
+excluded_norm = {os.path.normcase(x) for x in to_exclude}
 a.binaries = TOC([
     entry for entry in a.binaries
-    if not any(
-        entry[0].lower().startswith(prefix.lower())
-        for prefix in to_exclude
-    )
+    if os.path.normcase(entry[0]) not in excluded_norm
 ])
 
 pyz = PYZ(a.pure)
