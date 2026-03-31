@@ -14,7 +14,6 @@ datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 
 if sys.platform.startswith('linux'):
     binaries.append(('/usr/lib/x86_64-linux-gnu/libGL*.so*', '.'))
-    binaries.append(('/usr/lib/x86_64-linux-gnu/libEGL*.so*', '.'))
     binaries.append(('/usr/lib/x86_64-linux-gnu/libOSMesa*.so*', '.'))
     binaries.append(('/usr/lib/x86_64-linux-gnu/libglapi.so*', '.'))
     binaries.append(('/usr/lib/x86_64-linux-gnu/dri', 'dri'))
