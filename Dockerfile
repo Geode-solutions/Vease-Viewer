@@ -28,10 +28,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 COPY --from=builder /app/dist/vease-viewer /usr/local/bin/vease-viewer
 RUN chmod +x /usr/local/bin/vease-viewer
+RUN mkdir www && touch www/index.html
 
 EXPOSE 1234
 ENV PYTHON_ENV=prod
 ENV DISPLAY=:0
 
 ENTRYPOINT ["/usr/local/bin/vease-viewer"]
-CMD ["--data_folder_path", "/data", "--content", "/healthcheck"]
+CMD ["--data_folder_path", "/data", "--content", "./www"]
