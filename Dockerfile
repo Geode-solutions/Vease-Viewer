@@ -34,4 +34,4 @@ ENV PYTHON_ENV=prod
 ENV DISPLAY=:0
 
 ENTRYPOINT ["/usr/local/bin/vease-viewer"]
-CMD ["--data_folder_path", "/data"]
+CMD ["--data_folder_path", "/data", "--content", "/healthcheck"]
