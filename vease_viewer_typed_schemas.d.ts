@@ -4,6 +4,10 @@ import type json from "./vease_viewer_schemas.json";
 export interface MicroserviceVersionParams {
 }
 
+export interface MicroserviceVersionResponse {
+    microservice_version: string;
+}
+
 export interface ErrorResponse {
     code:        number;
     description: string;
@@ -19,7 +23,7 @@ export type TypedSchema<Params, Response> = {
 
 export interface Schemas {
   readonly vease_viewer: {
-    readonly microservice_version: (typeof json)["vease_viewer"]["microservice_version"] & TypedSchema<MicroserviceVersionParams, unknown>;
+    readonly microservice_version: (typeof json)["vease_viewer"]["microservice_version"] & TypedSchema<MicroserviceVersionParams, MicroserviceVersionResponse>;
   };
 }
 

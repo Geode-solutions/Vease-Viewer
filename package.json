@@ -17,19 +17,25 @@
     "url": "git+https://github.com/Geode-solutions/Vease-Viewer.git"
   },
   "files": [
-    "vease_viewer_schemas.json"
+    "vease_viewer_schemas.json",
+    "vease_viewer_typed_schemas.js",
+    "vease_viewer_typed_schemas.d.ts"
   ],
   "exports": {
     "./vease_viewer_schemas.json": {
       "import": "./vease_viewer_schemas.json",
       "require": "./vease_viewer_schemas.json"
+    },
+    "./vease_viewer_typed_schemas.js": {
+      "types": "./vease_viewer_typed_schemas.d.ts",
+      "default": "./vease_viewer_typed_schemas.js"
     }
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "json": "npx opengeodeweb-microservice-generate --startDir src/vease_viewer/rpc --key rpc --separator .",
+    "json": "npx opengeodeweb-microservice-generate --startDir src/vease_viewer/rpc --key rpc --separator . --requireResponse",
     "test": "npm run json",
     "build": "npm run json"
   },
