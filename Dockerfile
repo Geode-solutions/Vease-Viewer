@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y binutils
 WORKDIR /app
 
 COPY . .
-RUN pip3 install --no-cache-dir . pyinstaller
+RUN pip3 install --no-cache-dir --upgrade pip && pip3 install --no-cache-dir . pyinstaller
 
 RUN pyinstaller \
     --onefile \
