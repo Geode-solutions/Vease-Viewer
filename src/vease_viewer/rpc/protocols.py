@@ -1,5 +1,5 @@
 # Standard library imports
-import importlib.metadata as metadata
+from importlib import metadata
 
 # Third party imports
 from opengeodeweb_viewer.typed_rpc import typed_rpc
@@ -17,7 +17,7 @@ class VtkVeaseViewerView(vtk_protocols.vtkWebProtocol):
 
     @typed_rpc(prefix, schemas.microservice_version_route)
     def microservice_version(
-        self, params: schemas.MicroserviceVersion
+        self, _params: schemas.MicroserviceVersion
     ) -> schemas.MicroserviceVersionResponse:
         return schemas.MicroserviceVersionResponse(
             microservice_version=metadata.distribution("vease_viewer").version

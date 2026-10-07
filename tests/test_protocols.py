@@ -1,8 +1,9 @@
 # Standard library imports
-import importlib.metadata as metadata
+from importlib import metadata
 
 # Local application imports
 from opengeodeweb_viewer.typed_rpc import TYPED_RPC_MARKER
+
 from vease_viewer.rpc.protocols import VtkVeaseViewerView
 
 
