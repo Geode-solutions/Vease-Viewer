@@ -1,4 +1,5 @@
 # Standard library imports
+from typing import override
 
 # Third party imports
 from opengeodeweb_viewer.app import _Server, run_server
@@ -8,6 +9,7 @@ from vease_viewer.rpc.protocols import VtkVeaseViewerView
 
 
 class VeaseViewerServer(_Server):
+    @override
     def initialize(self) -> None:
         _Server.initialize(self)
         self.registerVtkWebProtocol(VtkVeaseViewerView())
